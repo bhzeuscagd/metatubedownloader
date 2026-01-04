@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PlaylistDownloader from '../components/PlaylistDownloader';
+---
+
+<Layout>
+  <main class="min-h-screen relative">
+    <!-- Animated Background -->
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+      <div class="absolute w-[600px] h-[600px] bg-gradient-to-br from-primary/20 via-accent/15 to-transparent rounded-full blur-3xl opacity-40 animate-float" style="left: -15%; top: -10%;"></div>
+      <div class="absolute w-[500px] h-[500px] bg-gradient-to-br from-accent/15 via-primary/10 to-transparent rounded-full blur-3xl opacity-30 animate-float" style="right: -10%; top: 50%; animation-delay: 3s;"></div>
+      <div class="absolute w-[700px] h-[700px] bg-gradient-to-br from-primary/10 via-accent/20 to-transparent rounded-full blur-3xl opacity-25 animate-float" style="left: 50%; bottom: -15%; animation-delay: 6s;"></div>
+    </div>
+
+    <div class="relative z-10 container mx-auto px-5 py-12 max-w-6xl">
+      <PlaylistDownloader client:load />
+    </div>
+  </main>
+</Layout>

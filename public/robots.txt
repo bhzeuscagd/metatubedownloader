@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://metatube-downloader.com/sitemap-index.xml
