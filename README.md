@@ -53,8 +53,8 @@ brew install yt-dlp ffmpeg
 
 1.  **Clonar el repositorio**
     ```bash
-    git clone https://github.com/bhzeuscagd/MetaTube-Downloader.git
-    cd MetaTube-Downloader
+    git clone https://github.com/bhzeuscagd/metatubedownloader.git
+    cd metatubedownloader
     ```
 
 2.  **Instalar dependencias**
@@ -90,7 +90,7 @@ brew install yt-dlp ffmpeg
 ## 🏗️ Estructura del Proyecto
 
 ```
-MetaTube-Downloader/
+metatubedownloader/
 ├── src/
 │   ├── components/       # Componentes React (UI)
 │   ├── layouts/          # Layouts de Astro
